@@ -3,11 +3,11 @@ var maxClusterZoomLevel = 11;
 
 //The URL to the store location data.
 //var storeLocationDataUrl = 'C:/Users/swdeshmu/Documents/Personal Docs/HACK/Starbucks-World-Map/data/Starbucks-stores.txt';
-var storeLocationDataUrl = '/data/Starbucks-stores.txt';
+var storeLocationDataUrl = 'data/Starbucks-stores.txt';
 
 //The URL to the icon image. 
-//var iconImageUrl = 'C:/Users/swdeshmu/Documents/Personal Docs/HACK/Starbucks-World-Map/images/CoffeeIcon.png';
-var iconImageUrl = '/images/CoffeeIcon.png';
+//var iconImageUrl = 'images/CoffeeIcon.png';
+var iconImageUrl = 'images/CoffeeIcon.png';
 //An array of country region ISO2 values to limit searches to.
 var countrySet = ['US', 'CA', 'GB', 'FR','DE','IT','ES','NL','DK'];      
 
@@ -464,11 +464,11 @@ function showPopup(shape) {
         html.push('<br/>Amenities: ');
 
         if (properties['IsWiFiHotSpot']) {
-            html.push('<img src="C:/Users/swdeshmu/Documents/Personal Docs/HACK/Starbucks-World-Map/images/WiFiIcon.png" title="Wi-Fi Hotspot"/>');
+            html.push('<img src="images/WiFiIcon.png" title="Wi-Fi Hotspot"/>');
         }
 
         if (properties['IsWheelchairAccessible']) {
-            html.push('<img src="C:/Users/swdeshmu/Documents/Personal Docs/HACK/Starbucks-World-Map/images/WheelChair-small.png" title="Wheelchair Accessible"/>');
+            html.push('<img src="images/WheelChair-small.png" title="Wheelchair Accessible"/>');
         }
     }
 
